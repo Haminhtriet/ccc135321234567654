@@ -510,7 +510,7 @@ NotificationHold:Destroy()
 	Hub.Position = UDim2.new(0, 80, 0, 0)
 	Hub.Size = UDim2.new(0, 50, 0, 27)
 	Hub.Font = Enum.Font.Code
-	Hub.Text = "HUB"
+	Hub.Text = "-HUB"
 	Hub.TextColor3 = Color3.fromRGB(50, 255, 255)
 	Hub.TextSize = 15.000
 	Hub.TextXAlignment = Enum.TextXAlignment.Left
