@@ -1,4 +1,4 @@
-local Hmtriet = Instance.new("ScreenGui")
+local HTRIET = Instance.new("ScreenGui")
 local Open = Instance.new("TextButton")
 local fuckshit = Instance.new("UICorner")
 local MODILEMAGE = Instance.new("ImageLabel")
@@ -6,12 +6,12 @@ local posto = Instance.new("UIStroke")
 
 fuckshit.Parent = Open
 
-Hmtriet.Name = "Hmtriet"
-Hmtriet.Parent = game.CoreGui
-Hmtriet.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+HTRIET.Name = "HTRIET"
+HTRIET.Parent = game.CoreGui
+HTRIET.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Open.Name = "Open"
-Open.Parent = Hmtriet
+Open.Parent = HTRIET
 Open.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
 Open.BorderSizePixel = 0.5
 Open.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0)
@@ -503,29 +503,29 @@ NotificationHold:Destroy()
  end
 
 	local Hub = Instance.new("TextLabel")
-	Hub.Name = "Hub"
-	Hub.Parent = Top
-	Hub.BackgroundColor3 = Color3.fromRGB(51,255,255)
-	Hub.BackgroundTransparency = 1.000
-	Hub.Position = UDim2.new(0, 80, 0, 0)
-	Hub.Size = UDim2.new(0, 50, 0, 27)
-	Hub.Font = Enum.Font.Code
-	Hub.Text = "HUB"
-	Hub.TextColor3 = Color3.fromRGB(50, 255, 255)
-	Hub.TextSize = 15.000
-	Hub.TextXAlignment = Enum.TextXAlignment.Left
+	X.Name = "X"
+	X.Parent = Top
+	X.BackgroundColor3 = Color3.fromRGB(51,255,255)
+	X.BackgroundTransparency = 1.000
+	X.Position = UDim2.new(0, 80, 0, 0)
+	X.Size = UDim2.new(0, 50, 0, 27)
+	X.Font = Enum.Font.Code
+	X.Text = "X"
+	X.TextColor3 = Color3.fromRGB(50, 255, 255)
+	X.TextSize = 15.000
+	X.TextXAlignment = Enum.TextXAlignment.Left
 	
 local Hub1 = Instance.new("TextLabel")
-	Hub1.Name = "Hub"
-	Hub1.Parent = Top
-	Hub1.BackgroundColor3 = Color3.fromRGB(51,255,255)
-	Hub1.BackgroundTransparency = 1.000
-	Hub1.Position = UDim2.new(0, 130, 0, 0)
-	Hub1.Size = UDim2.new(0, 50, 0, 27)
-	Hub1.Font = Enum.Font.Code
-	Hub1.Text = "| BLOX FRUIT"
-	Hub1.TextColor3 = Color3.fromRGB(51,255,255)
-	Hub1.TextSize = 15.000
+	X1.Name = "Hub"
+	X1.Parent = Top
+	X1.BackgroundColor3 = Color3.fromRGB(51,255,255)
+	X1.BackgroundTransparency = 1.000
+	X1.Position = UDim2.new(0, 130, 0, 0)
+	X1.Size = UDim2.new(0, 50, 0, 27)
+	X1.Font = Enum.Font.Code
+	X1.Text = "| BLOX FRUIT"
+	X1.TextColor3 = Color3.fromRGB(51,255,255)
+	X1.TextSize = 15.000
 
 	local BindButton = Instance.new("TextButton")
 	BindButton.Name = "BindButton"
@@ -535,7 +535,7 @@ local Hub1 = Instance.new("TextLabel")
 	BindButton.Position = UDim2.new(0.865561002, 0, 0, 0)
 	BindButton.Size = UDim2.new(0, 100, 0, 27)
 	BindButton.Font = Enum.Font.Code
-	BindButton.Text = "[Pupsiki]"
+	BindButton.Text = "<3"
 	BindButton.TextColor3 = Color3.fromRGB(51,255,255)
 	BindButton.TextSize = 14.000
 	BindButton.Visible = true
@@ -1826,7 +1826,7 @@ end
 	return uitab
 end
  --------------------------------------------------------------------
- local Library = Update:Window("Hmtriet");
+ local Library = Update:Window("HTRIET");
  --------------------------------------------------------------------
      if game.PlaceId == 2753915549 then
         World1 = true
@@ -2935,7 +2935,7 @@ end
     end)
     
     --------------------------------------------------------------------
-    local Library = Update:Window("Hmtriet");
+    local Library = Update:Window("HTRIET");
     --------------------------------------------------------------------
     local Main = Library:Tab("Main","rbxassetid://6026568198")
 local Setting = Library:Tab("Settings","rbxassetid://6034509993")
@@ -3426,7 +3426,7 @@ end)
         end
     end)
     
-Update:Notification("Hello, "  ..game.Players.LocalPlayer.DisplayName.. " Welcome Hmtriet V1! ")
+Update:Notification("Hello Username, "  ..game.Players.LocalPlayer.DisplayName.. " Welcome to Script HTRIET-X V1! ")
     
     Main:Seperator("「 Main")
    
