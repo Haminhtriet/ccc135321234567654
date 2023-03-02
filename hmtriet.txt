@@ -2949,15 +2949,15 @@ local Stats = Library:Tab("Stats","rbxassetid://7040410130")
     local Misc = Library:Tab("Misc","rbxassetid://6034509993")
     --------------------------------------------------------------------
 Setting:Seperator("「 Credits 」")
-    Setting:Label("Made By GoOoTiE#1331 ")
-    Setting:Label("Ui Remade By Hatori.")
+    Setting:Label("Make by Ha Minh Triet")
+    Setting:Label("<3")
      
-     Setting:Label("Join My discord For More Info!")
+     Setting:Label("Join My Telegram For More Info!")
      
      Setting:Line()
      
-      Setting:Button("Copy Discord Link",function()
-       Update:Notification("Discord Link Copied")
+      Setting:Button("Copy Telegram Link",function()
+       Update:Notification("Telegram Link Copied")
 setclipboard("https://discord.gg/g2setDfUCW")
       end)
    
